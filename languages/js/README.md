@@ -15,7 +15,7 @@ Standards and tooling related to JavaScript language use at Appcelerator.
         			options: {
         				jshintrc: true
         			},
-        			src: ['Gruntfile.js']
+        			src: ['Gruntfile.js'] // make sure to update this to point to your files
         		},
         		jscs: {
                     options: {
@@ -23,7 +23,7 @@ Standards and tooling related to JavaScript language use at Appcelerator.
                         reporter: 'inline'
         
                     },
-        			src: ['Gruntfile.js']
+        			src: ['Gruntfile.js'] // make sure to update this to point to your files
         		}
         	});
         
