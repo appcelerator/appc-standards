@@ -1,4 +1,4 @@
-# Obective-C
+# Objective-C
 
 Standards and tooling related to Objective-C language use at Appcelerator.
 
