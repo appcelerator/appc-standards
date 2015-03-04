@@ -10,7 +10,7 @@ Standards and tooling related to JavaScript language use at Appcelerator.
 		module.exports = function (grunt) {
 
 			// make sure to update this to point to your files
-			var files = ['library.js'];
+			var files = ['*.js'];
 
 			// Project configuration.
 			grunt.initConfig({
