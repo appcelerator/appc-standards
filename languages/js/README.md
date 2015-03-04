@@ -28,11 +28,9 @@ Standards and tooling related to JavaScript language use at Appcelerator.
         	});
         
         	// Load grunt plugins for modules
-        	grunt.loadNpmTasks('grunt-mocha-test');
         	grunt.loadNpmTasks('grunt-contrib-jshint');
         	grunt.loadNpmTasks('grunt-jscs');
-        	grunt.loadNpmTasks('grunt-contrib-clean');
-        
+
         	// register tasks. You might do this under a test 'test'
         	grunt.registerTask('default', ['jshint', 'jscs']);
         };
@@ -44,6 +42,7 @@ Standards and tooling related to JavaScript language use at Appcelerator.
       	...
         "devDependencies": {
         	    "grunt-cli": "*",
+        	    "grunt-contrib-jshint": "^0.10.0",
         	    "grunt-jscs": "^1.5.0",
         	    "jscs-jsdoc": "^0.4.5",
         },
