@@ -2,10 +2,10 @@
 
 Standards and tooling related to JavaScript language use at Appcelerator.
 
-## To Use
+## To test
 
-1. Copy .jshintrc and .jscsrc into your project root
-2. Create a Gruntfile.js file:
+1. Copy `.jshintrc` and `.jscsrc` into your project root
+2. Create a `Gruntfile.js` file:
 	
 		module.exports = function (grunt) {
 
@@ -53,3 +53,10 @@ Standards and tooling related to JavaScript language use at Appcelerator.
 
 4. Run `npm install` to install new dependencies
 5. Run `npm test` or whichever npm script will run the grunt task
+
+## Sublime Text
+
+1. Copy `.jsbeautifyrc` into your project root
+2. Use [HTML-CSS-JS Prettify](https://packagecontrol.io/packages/HTML-CSS-JS%20Prettify) to auto-format with `.jsbeautifyrc`
+3. Use [SublimeLinter-jshint](https://packagecontrol.io/packages/SublimeLinter-jshint) to lint with `.jshintrc`
+4. Use [SublimeLinter-jscs](https://packagecontrol.io/packages/SublimeLinter-jscs) to lint with `.jscrc`
