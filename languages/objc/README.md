@@ -4,7 +4,7 @@ Standards and tooling related to Objective-C language use at Appcelerator.
 
 ## To Use
 
-1. Copy .clang-formatc into your project root
+1. Copy .clang-format into your project root
 2. Create a Gruntfile.js file:
   
     	module.exports = function (grunt) {
