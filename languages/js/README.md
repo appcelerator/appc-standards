@@ -10,7 +10,7 @@ Standards and tooling related to JavaScript language use at Appcelerator.
         // Project configuration.
           grunt.initConfig({
             appcJs: {
-              src: ['Gruntfile.js', 'apidoc/**/*.js', '!apidoc/node_modules/**']
+              src: ['Gruntfile.js', 'other javascript files']
             },
                 clangFormat: {
                     src: [] // unused ATM
