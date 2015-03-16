@@ -1,4 +1,4 @@
-# JavaScript
+# Java
 
 Standards and tooling related to Java language use at Appcelerator. We use Java in two distinct places:
 
