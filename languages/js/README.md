@@ -40,3 +40,13 @@ Standards and tooling related to JavaScript language use at Appcelerator.
 
 3. Run `npm install` to install new dependencies
 4. Run `npm test` or whichever npm script will run the grunt task
+
+## Ignoring warnings
+
+In certain cases, you may need to ignore certain warnings due to pre-existing code. Some useful ones below:
+
+* // jshint -W079 - re-defined variable
+* // jshint -W116 - == vs ===
+* /* globals $H */ - undefined variable
+* // jscs:disable jsDoc - jsDoc comments
+* // jscs:disable requireCamelCaseOrUpperCaseIdentifiers
