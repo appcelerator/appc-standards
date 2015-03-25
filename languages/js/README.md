@@ -47,6 +47,6 @@ In certain cases, you may need to ignore certain warnings due to pre-existing co
 
 * // jshint -W079 - re-defined variable
 * // jshint -W116 - == vs ===
-* /* globals $H */ - undefined variable
+* /* globals $H */ - undefined variable $H
 * // jscs:disable jsDoc - jsDoc comments
 * // jscs:disable requireCamelCaseOrUpperCaseIdentifiers
